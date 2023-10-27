@@ -6,6 +6,7 @@ import ProductsPage from "./pages/Products.page";
 import NewsPage from "./pages/News.page";
 import AboutPage from "./pages/About.page";
 import ContactPage from "./pages/Contact.page";
+import GalleryPage from "./pages/Gallery.page";
 
 
 function App() {
@@ -16,9 +17,11 @@ function App() {
           <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/products" element={<ProductsPage />} />
+              <Route path="/gallery" element={<GalleryPage />} />
               <Route path="/news" element={<NewsPage />} />
               <Route path="/about-us" element={<AboutPage />} />
               <Route path="/contact-us" element={<ContactPage />} />
+
           </Routes>
       </div>
       <FooterComponent />
