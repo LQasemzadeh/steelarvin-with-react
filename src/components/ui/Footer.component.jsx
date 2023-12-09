@@ -1,6 +1,5 @@
 import React from 'react';
-
-
+import logoFooter from '../../assets/images/logo70.png';
 
 
 const FooterComponent = () => {
@@ -8,7 +7,7 @@ const FooterComponent = () => {
         <div>
             <footer className="footer bg-primary-content p-10 bg-base-300 text-base-content">
                 <aside>
-
+                    <img src={ logoFooter } className="object-contain" alt="logo"  />
                     <p>استیل آروین تاو<br/>آغاز فعالیت سال ۱۳۸۶</p>
                 </aside>
                 <nav>

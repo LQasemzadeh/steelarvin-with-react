@@ -1,4 +1,6 @@
 import React from 'react';
+import logoNav from "../../assets/images/logo.png";
+
 
 
 const NavbarComponent = () => {
@@ -25,7 +27,8 @@ const NavbarComponent = () => {
                             <li><a>تماس با ما</a></li>
                         </ul>
                     </div>
-                    <a className="text-2xl bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-600">استیل آروین تاو </a>
+                    <img src={ logoNav } className="object-contain" alt="logo"  />
+                    <a className="text-xl bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-600 pr-2">استیل آروین تاو </a>
 
 
                 </div>

@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <NavbarComponent />
-      <div className="wrapper">
+      <div className="wrapper bg-white">
           <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/products" element={<ProductsPage />} />
@@ -23,7 +23,6 @@ function App() {
               <Route path="/news" element={<NewsPage />} />
               <Route path="/about-us" element={<AboutPage />} />
               <Route path="/contact-us" element={<ContactPage />} />
-
           </Routes>
       </div>
       <FooterComponent />
