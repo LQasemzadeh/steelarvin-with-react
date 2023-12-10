@@ -1,5 +1,7 @@
 import React from 'react';
 import logoNav from "../../assets/images/logo.png";
+import { FaSearch } from 'react-icons/fa';
+
 
 
 
@@ -27,7 +29,7 @@ const NavbarComponent = () => {
                             <li><a>تماس با ما</a></li>
                         </ul>
                     </div>
-                    <img src={ logoNav } className="object-contain" alt="logo"  />
+                    <img src={ logoNav } className="object-contain pr-2" alt="logo"  />
                     <a className="text-xl bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-600 pr-2">استیل آروین تاو </a>
 
 
@@ -50,7 +52,11 @@ const NavbarComponent = () => {
                         <li><a>تماس با ما</a></li>
                     </ul>
                 </div>
-                <div className="navbar-end">
+
+                <div className="navbar-end pl-2">
+                    <div className="pl-3">
+                        <FaSearch />
+                    </div>
                     <a className="btn glass bg-orange-900">مشاوره رایگان</a>
                 </div>
             </div>
@@ -59,3 +65,5 @@ const NavbarComponent = () => {
 };
 
 export default NavbarComponent;
+
+
