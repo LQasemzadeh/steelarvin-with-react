@@ -19,8 +19,9 @@ const NavbarComponent = () => {
                             <li>
                                 <a>محصولات و خدمات</a>
                                 <ul className="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
+                                    <li><a>مخازن ذخیره</a></li>
+                                    <li><a>کولر هوایی</a></li>
+                                    <li><a>مبدل حرارتی</a></li>
                                 </ul>
                             </li>
                             <li><a>گالری تصاویر</a></li>
@@ -29,7 +30,7 @@ const NavbarComponent = () => {
                             <li><a>تماس با ما</a></li>
                         </ul>
                     </div>
-                    <img src={ logoNav } className="object-contain pr-2" alt="logo"  />
+                    <img src={ logoNav } className="object-contain" alt="logo"  />
                     <a className="text-xl bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-600 pr-2">استیل آروین تاو </a>
 
 
@@ -41,8 +42,9 @@ const NavbarComponent = () => {
                             <details>
                                 <summary>محصولات و خدمات</summary>
                                 <ul className="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
+                                    <li><a>مخازن ذخیره</a></li>
+                                    <li><a>کولر هوایی</a></li>
+                                    <li><a>مبدل حرارتی</a></li>
                                 </ul>
                             </details>
                         </li>
@@ -53,7 +55,7 @@ const NavbarComponent = () => {
                     </ul>
                 </div>
 
-                <div className="navbar-end pl-2">
+                <div className="navbar-end">
                     <div className="pl-3">
                         <FaSearch />
                     </div>
