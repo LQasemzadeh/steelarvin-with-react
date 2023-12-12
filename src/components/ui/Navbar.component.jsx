@@ -5,10 +5,11 @@ import { FaSearch } from 'react-icons/fa';
 
 
 
+
 const NavbarComponent = () => {
     return (
         <div>
-            <div className="navbar bg-primary-content text-neutral-content">
+            <div className="navbar z-50 fixed bg-primary-content text-neutral-content">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

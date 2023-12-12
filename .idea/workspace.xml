@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1de7ccf3-f828-4ff7-91b0-82ec37f523aa" name="Changes" comment="Footer">
+    <list default="true" id="1de7ccf3-f828-4ff7-91b0-82ec37f523aa" name="Changes" comment="Home Page">
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Popup.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ui/Navbar.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Navbar.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/About.page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.page.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +80,12 @@
       <workItem from="1702130593063" duration="3473000" />
       <workItem from="1702134805349" duration="2054000" />
       <workItem from="1702137598713" duration="1829000" />
-      <workItem from="1702215824450" duration="6883000" />
+      <workItem from="1702215824450" duration="7160000" />
+      <workItem from="1702274892948" duration="4066000" />
+      <workItem from="1702297214438" duration="3062000" />
+      <workItem from="1702304074716" duration="2253000" />
+      <workItem from="1702361443437" duration="1510000" />
+      <workItem from="1702368608933" duration="1006000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1698042933154</created>
@@ -136,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702219175144</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Home Page">
+      <created>1702226170165</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702226170166</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +172,7 @@
     <MESSAGE value="Routes" />
     <MESSAGE value="NavBar" />
     <MESSAGE value="Footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Footer" />
+    <MESSAGE value="Home Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home Page" />
   </component>
 </project>
