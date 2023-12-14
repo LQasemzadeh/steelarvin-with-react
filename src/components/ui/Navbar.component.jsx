@@ -7,6 +7,10 @@ import { FaSearch } from 'react-icons/fa';
 
 
 const NavbarComponent = () => {
+
+
+
+
     return (
         <div>
             <div className="navbar z-50 fixed bg-primary-content text-neutral-content">

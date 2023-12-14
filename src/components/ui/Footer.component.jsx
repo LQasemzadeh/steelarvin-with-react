@@ -7,8 +7,8 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 const FooterComponent = () => {
     return (
-        <div>
-            <footer className="footer bg-primary-content p-10 bg-base-300 text-base-content">
+        <div className="flex flex-col h-screen">
+            <footer className="footer mt-auto bg-primary-content p-10 bg-base-300 text-base-content">
                 <aside>
                     <img src={ logoFooter } className="object-contain" alt="logo"  />
                     <p>استیل آروین تاو<br/>آغاز فعالیت سال ۱۳۸۶</p>
@@ -59,15 +59,3 @@ const FooterComponent = () => {
 
 export default FooterComponent;
 
-// import { FaInstagram } from 'react-icons/fa';
-//
-// const MyComponent = () => {
-//   return (
-//     <div>
-//       <FaInstagram />
-//       {/* Other content */}
-//     </div>
-//   );
-// }
-//
-// export default MyComponent;
