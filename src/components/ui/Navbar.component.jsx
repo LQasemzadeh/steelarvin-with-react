@@ -23,10 +23,35 @@ const NavbarComponent = () => {
                             <li><a>خانه</a></li>
                             <li>
                                 <a>محصولات و خدمات</a>
-                                <ul className="p-2">
-                                    <li><a>مخازن ذخیره</a></li>
-                                    <li><a>کولر هوایی</a></li>
-                                    <li><a>مبدل حرارتی</a></li>
+                                <ul className="menu xl:menu-horizontal lg:min-w-max bg-base-200 rounded-box">
+                                    <li>
+                                        <a>مخازن ذخیره</a>
+                                        <ul>
+                                            <li><a>Design</a></li>
+                                            <li><a>Development</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a>کولر هوایی</a>
+                                        <ul>
+                                            <li><a>CRM software</a></li>
+                                            <li><a>Marketing management</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a>مبدل حرارتی</a>
+                                        <ul>
+                                            <li><a>UI Kit</a></li>
+                                            <li><a>Wordpress themes</a></li>
+                                            <li>
+                                                <a>Open source</a>
+                                                <ul>
+                                                    <li><a>Auth management system</a></li>
+                                                    <li><a>VScode theme</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </li>
                             <li><a>گالری تصاویر</a></li>
@@ -46,10 +71,41 @@ const NavbarComponent = () => {
                         <li>
                             <details>
                                 <summary>محصولات و خدمات</summary>
-                                <ul className="p-2">
-                                    <li><a>مخازن ذخیره</a></li>
-                                    <li><a>کولر هوایی</a></li>
-                                    <li><a>مبدل حرارتی</a></li>
+                                <ul className="menu xl:menu-horizontal lg:min-w-max bg-base-200 rounded-box">
+                                    <li>
+                                        <a>مخازن ذخیره</a>
+                                        <ul>
+                                            <li><a>Design</a></li>
+                                            <li><a>Development</a></li>
+                                            <li><a>Hosting</a></li>
+                                            <li><a>Domain register</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a>کولر هوایی</a>
+                                        <ul>
+                                            <li><a>Design</a></li>
+                                            <li><a>Development</a></li>
+                                            <li><a>Hosting</a></li>
+                                            <li><a>Domain register</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a>مبدل حرارتی</a>
+                                        <ul>
+                                            <li><a>UI Kit</a></li>
+                                            <li><a>Wordpress themes</a></li>
+                                            <li><a>Wordpress plugins</a></li>
+                                            <li>
+                                                <a>Open source</a>
+                                                <ul>
+                                                    <li><a>Auth management system</a></li>
+                                                    <li><a>VScode theme</a></li>
+                                                    <li><a>Color picker app</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </details>
                         </li>
