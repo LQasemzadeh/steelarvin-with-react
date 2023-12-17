@@ -63,19 +63,15 @@ const NavbarComponent = () => {
                 <div className="navbar-end">
                     <div>
                         {/* You can open the modal using document.getElementById('ID').showModal() method */}
-                        <button className="btn" onClick={()=>document.getElementById('my_modal_3').showModal()}><FaSearch /></button>
+                        <button className="btn btn-ghost" onClick={()=>document.getElementById('my_modal_3').showModal()}><FaSearch /></button>
                         <dialog id="my_modal_3" className="modal">
                             <div className="modal-box">
                                 <form method="dialog">
                                     {/* if there is a button in form, it will close the modal */}
                                     <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                                 </form>
-                                <input
-                                    type="text"
-                                    className="block w-full px-4 py-2 text-purple-700 bg-white border rounded-full focus:border-orange-800 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
-                                    placeholder="جستجو کنید ..."
-                                />
-                                <button className="px-4 text-white bg-orange-800 rounded-full ">
+                                <input type="text" placeholder="جستجو کنید ..." className="input input-bordered w-full max-w-xs" />
+                                <button className="btn btn-circle text-white bg-orange-800">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         className="w-5 h-5"
@@ -91,6 +87,7 @@ const NavbarComponent = () => {
                                         />
                                     </svg>
                                 </button>
+
                             </div>
                         </dialog>
                     </div>
