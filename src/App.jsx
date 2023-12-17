@@ -18,7 +18,7 @@ function App() {
 
 
   return (
-    <div>
+    <div className="overflow-hidden">
       <NavbarComponent />
       <PopupComponent />
       <div className="wrapper bg-white">
