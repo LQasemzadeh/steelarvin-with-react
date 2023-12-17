@@ -8,7 +8,7 @@ import AboutPage from './pages/About.page';
 import ContactPage from './pages/Contact.page';
 import GalleryPage from './pages/Gallery.page';
 import './index.css';
-import PopupComponent from "./components/ui/Popup.component";
+
 
 
 
@@ -20,7 +20,6 @@ function App() {
   return (
     <div className="overflow-hidden">
       <NavbarComponent />
-      <PopupComponent />
       <div className="wrapper bg-white">
           <Routes>
               <Route path="/" element={<HomePage />} />

@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1de7ccf3-f828-4ff7-91b0-82ec37f523aa" name="Changes" comment="popup">
+    <list default="true" id="1de7ccf3-f828-4ff7-91b0-82ec37f523aa" name="Changes" comment="overflow-hidden">
+      <change afterPath="$PROJECT_DIR$/src/components/ui/uiui.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Navbar.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Navbar.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Popup.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Popup.component.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +87,9 @@
       <workItem from="1702368608933" duration="4445000" />
       <workItem from="1702536662680" duration="5347000" />
       <workItem from="1702550270470" duration="2557000" />
-      <workItem from="1702800793548" duration="362000" />
+      <workItem from="1702800793548" duration="1478000" />
+      <workItem from="1702802812432" duration="649000" />
+      <workItem from="1702806761464" duration="378000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1698042933154</created>
@@ -170,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702551678539</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="overflow-hidden">
+      <created>1702801363898</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702801363898</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +206,7 @@
     <MESSAGE value="Footer" />
     <MESSAGE value="Home Page" />
     <MESSAGE value="popup" />
-    <option name="LAST_COMMIT_MESSAGE" value="popup" />
+    <MESSAGE value="overflow-hidden" />
+    <option name="LAST_COMMIT_MESSAGE" value="overflow-hidden" />
   </component>
 </project>
