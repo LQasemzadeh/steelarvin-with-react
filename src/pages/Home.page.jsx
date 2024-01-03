@@ -13,8 +13,9 @@ const HomePage = () => {
                     </div>
                 </div>
             </div>
-            <div className="hero min-h-screen bg-base-200">
-                <div className="hero-content flex-col lg:flex-row-reverse">
+            <div className="flex flex-col w-full mx-auto px-16 border-opacity-50">
+            <div className="grid h-screen card rounded-box shadow-2xl place-items-center">
+                <div className="hero-content flex-col pr-16 pl-16 lg:flex-row-reverse">
                     <img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl" />
                     <div>
                         <h1 className="text-5xl font-bold">درباره استیل آروین تاو</h1>
@@ -22,8 +23,12 @@ const HomePage = () => {
                         <button className="btn btn-primary">درباره ما بیشتر بدانید</button>
                     </div>
                 </div>
+
+            </div>
+
             </div>
         </div>
+
     );
 };
 
